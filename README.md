@@ -17,3 +17,5 @@ Pon atención a los detalles de diseño, la simplicidad, y la elegancia en la di
 HTML y CSS 
 
 ## Screenshots y vista previa
+![mockup1](https://github.com/DOrielFernandez/WebHJ/assets/116945545/ad31c941-9244-4b33-a42d-37cc346f3e15)
+![mockup2](https://github.com/DOrielFernandez/WebHJ/assets/116945545/2f0d9b9e-5d44-4b72-9a26-47d64cbeee8e)
