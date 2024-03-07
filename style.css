@@ -16,6 +16,10 @@ a {
     border-bottom: 1px solid;
 }
 
+a:hover {
+    border-bottom: none;
+}
+
 /* <------ INTRO ------> */
 
 .intro {
