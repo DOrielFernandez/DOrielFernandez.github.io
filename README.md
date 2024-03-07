@@ -14,14 +14,6 @@ Pon atención a los detalles de diseño, la simplicidad, y la elegancia en la di
 ¡Buena suerte!
 
 ## Stack utilizado
-Lenguajes, tecnología y frameworks utilizados en el desarrollo
+HTML y CSS 
 
 ## Screenshots y vista previa
-Screenshots o enlace a la vista previa del trabajo finalizado
-
-## Instalación
-Instrucciones para otros desarrolladores sobre cómo instalar y ejecutar tu código en su entorno local.
-
-## Licencia
-[MIT](https://choosealicense.com/licenses/mit/)
-La mayoría de los proyectos de código abierto utilizan la licencia MIT. Siéntete libre de elegir la licencia que prefieras
