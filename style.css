@@ -118,4 +118,8 @@ ul {
     .coffe .text {
         margin-bottom: 64px;
     }
+
+    .text header, footer {
+        text-align: center;
+    }
 }
