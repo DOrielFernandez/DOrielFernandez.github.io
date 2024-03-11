@@ -5,7 +5,7 @@ body{
     font-family: 'Inter';
 }
 
-div.container {
+main.container, header.intro {
     width: 100%;
     max-width: 1000px;
     margin: auto;
@@ -21,11 +21,15 @@ a:hover {
 }
 
 /* <------ INTRO ------> */
+.intro .textIntro{
+    margin: auto;
+}
 
 .intro {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 64px;
+    margin: 64px 0;
+    height: 100vh;
 }
 
 .text{
@@ -34,26 +38,35 @@ a:hover {
     justify-content: center;
 }
 
-.intro .text h1 {
+.intro h1 {
     font-size: 64px;
 }
 
-.intro .text a {
+.intro a {
     color: black;
     margin-right: 16px;
 }
 
-.avatar {
-    text-align: center;
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
 }
 
-.avatar p img {
+.avatar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.avatar img {
+    margin: auto;
     height: 500px;
 }
 
 /* <------ PROJECTS ------> */
 
-.sections {
+.coffe {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 64px;
@@ -61,7 +74,7 @@ a:hover {
     padding-bottom: 64px;
 }
 
-.sections .text {
+.coffe .text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,21 +82,22 @@ a:hover {
     color: #000043;
 }
 
-.sections .text p {
+.coffe .text p {
     color: #252558;
 }
 
-.projects .sections a {
+.projects .coffe a {
     color: black;
 }
 
-.sections .image img {
+.coffe .image img {
     width: 100%;
 }
 
-.sections .image {
+.coffe .image {
     text-align: center;
 }
+
 
 /* <------ RESPONSIVE ------> */
 @media (width < 1000px){
@@ -92,12 +106,16 @@ a:hover {
         grid-template-columns: 100%;
         text-align: center;
     }
+
+    .intro ul{
+        justify-content: center;
+    }
     
-    .sections {
+    .coffe {
         grid-template-columns: 100%;
     }
 
-    .sections .text {
+    .coffe .text {
         margin-bottom: 64px;
     }
 }
